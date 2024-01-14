@@ -45,6 +45,7 @@ class Data {
         this.position,
         this.team,
         this.weightPounds});
+  // This is modal class
 
   Data.fromJson(Map<String, dynamic> json) {
     id = json['id'];
